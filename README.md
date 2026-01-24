@@ -38,7 +38,7 @@ Content-Type: application/json
 
 
 ### Request Body
-
+ ```
 {
   "language": "English",
   "audioFormat": "mp3",
@@ -58,7 +58,7 @@ Error Response
   "status": "error",
   "message": "Invalid API key or malformed request"
 }
-
+```
  🛠 Tech Stack
  Python
 
