@@ -2,7 +2,9 @@ from fastapi import FastAPI, Header, HTTPException
 from pydantic import BaseModel
 from detector import detect_voice_from_base64
 
-API_KEY = "sk_test_123456789"  # change later
+import os
+API_KEY = os.getenv("API_KEY")
+
 
 app = FastAPI(title="AI Voice Detection API")
 
