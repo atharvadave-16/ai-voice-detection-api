@@ -33,7 +33,7 @@ These features are combined into a **confidence-based decision**, acknowledging 
 https://ai-voice-detection-api.onrender.com/api/voice-detection
 
 ### Request Headers
-x-api-key: sk_test_123456789
+x-api-key: 
 Content-Type: application/json
 
 
