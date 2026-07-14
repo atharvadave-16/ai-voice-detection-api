@@ -19,11 +19,11 @@ print("spectral centroid", np.mean(centroid))
 #ZCR	0.01 – 0.2
 #RMS	0.001 – 0.1
 
-#So when you plot them together:
+#So when  plot  together:
 
-#👉 Spectral centroid dominates the graph
-#👉 ZCR & RMS get squashed near zero
-#👉 It looks like they’re missing
+#Spectral centroid dominates the graph
+# ZCR & RMS get squashed near zero
+# It looks like they’re missing
 
 #They are there, just invisible.we need to normalise them
 #[0] helps flatten the 2d array output of librosa to 1d to plot graph
